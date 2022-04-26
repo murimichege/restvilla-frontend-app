@@ -1,0 +1,101 @@
+.header {
+    background:#fff;
+	z-index:6;
+}
+/*------ transparent --------*/
+.header.header-transparent {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    width: 100%;
+    z-index:6;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.change-logo .nav-brand.fixed-logo {
+    display: none;
+}
+.change-logo.header-fixed .nav-brand.fixed-logo {
+    display: block;
+}
+.change-logo.header-fixed .nav-brand.static-logo {
+    display: none;
+}
+.change-logo .nav-brand.static-logo {
+    display:none;
+}
+.navigation,
+.navigation * {
+    -webkit-tap-highlight-color: transparent
+}
+
+.navigation,
+.navigation * {
+    box-sizing: border-box
+}
+
+.navigation {
+    width: 100%;
+    height: 70px;
+    display: table;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.nav-toggle,
+.navigation-hidden .nav-header {
+    display: none
+}
+
+.navigation-portrait {
+    height: 48px
+}
+
+.navigation-fixed {
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.navigation-hidden {
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important
+}
+.navigation-landscape .nav-menu.nav-menu-centered>li {
+    float: none
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.nav-brand {
+    padding:18px 15px;
+    font-size: 24px;
+	margin-right: 1rem;
+	padding-left: 0;
+    text-decoration: none !important
+}
+.change-logo.header-fixed .nav-brand.static-logo {
+    display: none;
+}
+.change-logo .nav-brand.static-logo {
+    display:none;
+}
+.change-logo .nav-brand.fixed-logo {
+    display: none;
+}
+.change-logo.header-fixed .nav-brand.fixed-logo {
+    display: block;
+}
+.header.header-fixed a.alio_green {
+    color: #07ad7f !important;
+}
+.nav-tabs .nav-item a {
+    padding: 0.5em 1em;
+}
